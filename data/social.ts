@@ -7,32 +7,35 @@ export interface SocialLink {
 }
 
 export const personalInfo = {
-  name: "Om Dubey",
-  role: "Software Developer",
-  tagline: "Software Developer building practical products with AI, web & data.",
-  bio: "BSc Computer Science student at University of Mumbai focused on turning real-world problems into robust, production-minded software. Specializing in AI-assisted workflows, full-stack systems, and data engineering.",
-  location: "Mumbai, India",
-  status: "Open to Internships & Software Developer Roles",
+  name: "Om Dayashankar Dubey",
+  shortName: "Om Dubey",
+  role: "AI & Full-Stack Developer | Aspiring Data Analyst",
+  tagline: "AI & Full-Stack Developer passionate about software development, AI systems, and data analysis.",
+  bio: "Second-year B.Sc. Computer Science student at the University of Mumbai with a strong passion for software development, artificial intelligence, and data analysis. Built and deployed multiple AI-powered applications using Python, React, FastAPI, and generative AI APIs while continuously exploring modern technologies through self-driven projects and hackathons.",
+  location: "Mumbai, Maharashtra",
+  phone: "8468907996",
+  status: "Open to Technical Roles & Internships",
   statusAvailable: true,
-  email: "omdubey.dev@gmail.com", // TODO: Replace with your primary email if different
-  resumeUrl: "/resume.pdf", // Placed in public/resume.pdf
-  githubUsername: "omdubey", // TODO: Update with exact GitHub username if different
-  githubUrl: "https://github.com/omdubey",
-  linkedinUrl: "https://linkedin.com/in/om-dubey", // TODO: Update with exact LinkedIn URL
+  email: "omdubeyclg07@gmail.com",
+  resumeUrl: "/resume.pdf",
+  githubUsername: "Omdubey07",
+  githubUrl: "https://github.com/Omdubey07",
+  linkedinUsername: "om-dubey-4206aa393",
+  linkedinUrl: "https://linkedin.com/in/om-dubey-4206aa393",
 };
 
 export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
     url: personalInfo.githubUrl,
-    label: "github.com/omdubey",
-    username: "@omdubey",
+    label: "github.com/Omdubey07",
+    username: "@Omdubey07",
     icon: "github",
   },
   {
     name: "LinkedIn",
     url: personalInfo.linkedinUrl,
-    label: "linkedin.com/in/om-dubey",
+    label: "linkedin.com/in/om-dubey-4206aa393",
     username: "Om Dubey",
     icon: "linkedin",
   },
